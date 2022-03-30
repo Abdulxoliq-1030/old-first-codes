@@ -1,0 +1,168 @@
+body,h1,h2,h3,ul,p {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: black;
+    border-bottom: 5px solid yellow;
+}
+
+#header h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px 0;
+    display: inline-block;
+}
+
+#header .boshqacha {
+    color: yellow;
+}
+
+.navbar {
+    float: right;
+}
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    padding: 25px 15px;
+    display: inline-block;
+}
+.navbar li a:hover {
+    color: yellow;
+}
+
+
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+#banner {
+    height: 60vh;
+    background-image: url(../images/laptop.jpg);
+    background-size: cover;
+    background-position: center -50px;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+}
+
+#banner h1 {
+  font-size: 50px;
+  margin-bottom: 25px; 
+  padding-top: 150px;
+}
+
+#newsletter {
+    border-top: 5px solid yellow;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    padding: 30px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+
+#newsletter .left  {
+    float: left;
+
+}
+
+#newsletter .right {
+    float: right;
+   
+}
+
+#newsletter input {
+    padding: 5px;
+}
+.button {
+    padding: 7px 15px;
+    border: none;
+    background-color: yellow;
+    color: black;
+    margin-left:  10px;
+
+}
+.button:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+#courses {
+    padding: 30px 0;
+
+}
+
+.box {
+    width: 30%;
+    float: left;
+    text-align: center;
+    font-family: sans-serif;
+}
+.box img {
+    max-width: 100%;
+    width: 120px;
+}
+.clr {
+    clear: both;
+}
+#footer {
+ padding: 40px 0;
+ border-top: 5px solid yellow;
+ text-align: center;
+ background-color: black;
+ color: white;
+ margin-top: 30px;   
+}
+
+.main-content {
+    width: 65%;
+    float: left;
+}
+
+.sidebar {
+ 
+    width: 30%;
+    float: right;
+
+
+}
+#about-us {
+    margin: 40px 0;
+  font-family: sans-serif;
+}
+.bg-dark {
+  background-color: black;
+  color: #fff;  
+  padding: 15px;
+}
+
+.service-box {
+    padding: 30px;
+    margin: 15px 0;
+    color: black;
+    background-color: #e5e5e5;
+    border: 1px solid #555;
+}
+
+label {
+    display: block;
+    margin:10px 0;
+}
+
+.form-input,textarea {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.active {
+ color: yellow !important;   
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My website</title>
+    </head>
+    <body>
+        <h2> Unordered list</h2>
+        <!-- Ul ni ichida yana ul ochib ishlatib ketsa ham boladi -->
+        <ul>
+            <li>Windows os</li>
+            <li>  <p>Linux os</p> 
+                <ul>
+                    <li>DEBIAN</li>
+                    <li>UBUNTU</li>
+                    <li>cent</li>
+                </ul>
+            </li>
+            <li>Mac os</li>
+        </ul>
+
+
+        <!-- ol etiketi bu ham huddi ul ga oxshash lekin bunda raqam bilan chiqarib beradi -->
+
+        <h2>ordered list</h2>
+<ol>
+    <li> ol etiketi</li>
+    <li> ol etiketi</li>
+    <li> ol etiketi</li>
+    <li> ol etiketi</li>
+
+</ol>
+
+
+<!-- bu kodimiz orqali maasalan appleni oilasini guruxlab olishimz mumkin albatta boshqa narsalarni ham -->
+<p>Apple</p>
+<ol>
+   
+    <li>Iphone</li>
+    <li>Imac</li>
+    <li>Macbook</li>
+</ol>
+
+
+
+<img src="html-head.jpg" alt="html" width="250">
+<img src="cat-computer.gif" alt="mushuk">
+<img width="250" src="https://images.unsplash.com/photo-1548247416-ec66f4900b2e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=363&q=80" >
+
+
+<form action="/users/register">
+    <p>
+        Ismingiz:  <input type="text" name="Ism" placeholder="Ismingizni kiriting">
+    </p>
+
+    <p>
+        Familiya: <input type="text" name="familiya" placeholder="Familiyangizni kiriting">
+    </p>
+    <p>
+        Parol: <input type="password" name="Parol" placeholder="Parolingizni kiriting">
+
+    </p>
+    <p>
+        Raqam: <input type="number" name="number" placeholder="Raqamingizni kiriting">
+        
+    </p>
+    <p>
+       Email: <input type="email" name="email" placeholder="Emailingizni kiriting">       
+    </p>
+
+    <p>
+       Meni eslab qol: <input type="checkbox" name="meni eslab qol" checked >
+    </p>
+    <p>
+        Erkak: <input type="radio" name="jins" >
+        Ayol: <input type="radio" name="jins" >
+     </p>
+
+     <h5>Hobbies</h5>
+     <p>
+         Kod yozish: <input type="checkbox" name="code">
+         <br>
+        Kitob o'qish: <input type="checkbox" name="book" checked> <!--checked orqali internetga kirganda doimo tanlangan narsalar bolishi mumknin masalan sport shuni oziga checked yozamiz va tanlagan holatda boladi-->
+        <br>
+         O'yin o'ynash: <input type="checkbox" name="game">
+         <br>
+          Mashina haydash: <input type="checkbox" name="car">       
+     </p>
+
+<h3>Dvlatingizni tanlang:</h3>
+
+     <p>
+         <select name="davlatlar">
+             <option>Uzbekistan</option>
+             <option selected>Turkey</option>  <!--selected bilan doimo tanlangan holatda chiqaramiz listimizni eng yuqorisida-->
+             <option>USA</option>
+             <option>RUSSIA</option>
+         </select>
+     </p>
+
+     <p>
+         <select name="drink" multiple>
+        <option>Coca cola</option>
+        <option>Fanta</option>
+        <option>Pepsi</option>
+
+         </select>
+     </p>
+     <input type="submit" value="Jo'nat">
+
+</form>
+    </body>
+</html>

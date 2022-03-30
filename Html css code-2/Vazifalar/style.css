@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    padding: 40px;
+
+}
+
+.active {
+    border-bottom: 2px solid black;
+}
+
+#navbar {
+    background-image: url(images/room.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+
+}
+
+#navbar h1 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+
+#navbar ul {
+    float: right;
+
+}
+
+#navbar ul li {
+    display: inline;
+    padding: 15px;
+}
+
+#navbar ul li a {
+    color: black;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 20px;
+
+
+}
+
+#navbar ul li a:hover {
+    color: #fff;
+    font-size: 25px;
+
+}
+
+#showcase {
+    text-align: center;
+    width: auto;
+    padding-top: 60px;
+    display: inline-block;
+    
+}
+
+
+#showcase h1 {
+    font-size: 50px;
+}
+
+#showcase p {
+    text-align: center;
+    font-size: 15px;
+    padding-left: 400px;
+    padding-right: 400px;
+    
+    
+}
+
+#sec {
+    background-color: rgb(225, 224, 223);
+    height: 40vh;
+
+}
+
+#sec h1   {
+text-align: center;
+font-size: 60px;
+padding-top: 100px;
+}
+
+#sec p {
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 15px;
+}
+
+
+
+
+.box-1 {
+    float: left;
+    width: 50%;
+    height: 600px;
+    background-color: rgb(202, 202, 202);
+
+    
+
+   
+
+}
+
+.box-1 h6 {
+    
+    padding-top: 200px;
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 15px;
+  
+
+}
+
+.box-1 h1 {
+    width: 70px;
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+
+.box-1 p {
+    padding-right: 200px;
+    text-align: left;
+    padding-left: 50px;
+    font-size: 15px;
+}
+
+
+.box-1 .btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.box-1 .btn a:hover {
+    color: #000;
+}
+
+
+.box-1 .btn {
+    margin-top: 35px;
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 8px 10px;
+   background-color: black;
+   color: #fff;
+   border: none;
+   transition: 0.3s;
+}
+
+.box-1 .btn:hover {
+    background-color: #fff;
+    color: black;
+
+}
+
+.box-2 {
+    background-image: url(images/room-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    float: right;
+    width: 50%;
+    
+}
+
+
+.box-3 {
+float: left;
+width: 25%;
+text-align: center;
+}
+
+.box-3 h6 {
+padding-top: 50px;
+padding-left: 15px;
+}
+
+.box-3 h3 {
+    padding-top: 20px;
+
+}
+
+
+.box-3 p {
+    text-align: center;
+    padding-right: 15px;
+    padding: 30px;
+}
+
+.box-4 {
+
+    float: left;
+    width: 25%;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    
+}
+
+
+.box-4 h6 {
+    padding-top: 50px;
+   padding-left: 30px;
+}
+
+.box-4 h1 {
+    padding-left: 30px;
+}
+
+.box-4 h3{
+    padding-top: 30px;
+
+}
+
+.box-4 p {
+    text-align: center;
+    padding-right: 15px;
+    padding: 30px;
+}
+
+.box-5 {
+
+    float: left;
+    width: 25%;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    
+}
+
+
+.box-5 h6 {
+    padding-top: 50px;
+   padding-left: 30px;
+}
+
+.box-5 h1 {
+    padding-left: 30px;
+}
+
+.box-5 h3{
+    padding-top: 30px;
+
+}
+
+.box-5 p {
+    text-align: center;
+    padding-right: 15px;
+    padding: 30px;
+}
+
+
+
+
+.box-6 {
+
+    float: left;
+    width: 25%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    
+}
+
+
+.box-6 h6 {
+    padding-top: 50px;
+   padding-left: 30px;
+}
+
+.box-6 h1 {
+    padding-left: 30px;
+}
+
+.box-6 h3{
+    padding-top: 30px;
+
+}
+
+.box-6 p {
+    text-align: center;
+    padding-right: 15px;
+    padding: 30px;
+}
+
+
+.footer {
+    
+    display: inline-block;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 30px;
+}
+
+
+.footer h1    {
+text-align: center;
+}
+
+
+.sec-1 {
+    background-color: aliceblue;
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+    display: inline-block;
+    padding-bottom: 135px;
+}
+.sec-1 p {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+
+.sec-2 {
+    float: right;
+    display: inline-block;
+    width: 50%;
+    background-image: url(images/secctio.jpg);
+    background-size: cover;
+    height: 350px;
+    background-position: center bottom;
+
+}

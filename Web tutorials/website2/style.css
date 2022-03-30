@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Laptop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header {
+    width: 100%;
+}
+nav {
+    margin-left: 80px;
+}
+nav h1 {
+    color: yellowgreen;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 30px;
+}
+
+nav ul {
+    display: inline-block;
+    float: right;
+    margin-right: 150px;
+    margin-top: 20px;
+   
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+nav ul li::after {
+    content: '';
+    width: 100%;
+    height: 0px;
+    display: block;
+    background: yellowgreen;
+    margin-top: 5px;
+}
+nav ul li:hover::after {
+   height: 2px; 
+   transition: 0.2s;
+}
+
+nav ul li:first-child::after{
+    height: 2px;
+}
+.button {
+    margin-top: 200px;
+    text-align: center;
+    color: yellowgreen;
+
+
+}
+.button h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.button button {
+    width: 180px;
+    height: 45px;
+    font-size: 20px;
+   color: yellowgreen;
+   background: transparent;
+  border: 2px solid yellowgreen;
+  border-radius: 30px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.button button:hover {
+    background: yellowgreen;
+    color: #fff;
+    transition: 0.5s;
+}

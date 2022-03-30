@@ -1,0 +1,127 @@
+body,h1,h2,h3,ul,p {
+    margin: 0;
+    padding: 0;
+}
+
+
+#header {
+background-color: #35424a;
+padding: 15px;
+width: 100%;
+border-bottom: 3px solid chocolate;
+}
+
+#header h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block;
+}
+
+#header .logo {
+    color: chocolate;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+
+.navbar {
+    float: right;
+
+
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color:  #fff;
+    font-family: sans-serif;
+    padding: 25px 20px;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a:hover {
+    color: chocolate;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+#banner {
+    height: 60vh;
+   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/james-harrison-vpOeXr5wmR4-unsplash.jpg);
+   background-position: center center;
+   background-size: cover;
+   text-align: center;
+   color: #fff;
+   font-family: sans-serif;
+}
+
+
+#banner h1 {
+font-size: 56px;
+margin-bottom: 25px;
+padding-top: 150px;
+
+}
+
+
+#newsletter {
+    background-color: #35424a;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+#newsletter .left {
+    float: left;
+}
+
+#newsletter .right {
+    float: right;
+
+}
+
+
+#newsletter input {
+    padding: 10px;
+
+}
+
+.button {
+    padding: 10px 15px;
+    border: none;
+    background-color: chocolate;
+    color: #fff;
+    margin-left: 15px; 
+}
+
+#courses {
+    padding: 20px;
+    padding-top: 35px;
+}
+
+.box {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.box img {
+    max-width: 100%;
+    width: 120px;
+}
+

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.reklama img {
+    width: 100%;
+}
+
+/* header */
+
+header {
+    margin: 20px 0;
+}
+
+.logo img {
+    width: 75px;
+    height: 30px;
+    margin-top: 0px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+ul li {
+    display: inline;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+a {
+    text-decoration: none;
+    transition: all.3s;
+}
+.navbar {
+    margin-left: 15px;  
+}
+
+.nav-item {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 19px;
+    margin-left: 20px;
+}
+
+
+nav {
+    margin-top: 6px;
+}
+
+.nav-item a:hover {
+    color: blue;
+
+}
+.nav-item a {
+    color: black;
+}
+
+.covid-btn {
+background-color: #d80943;
+border-radius: 18px;
+color: #fff;
+font-size: 10px;
+text-transform: uppercase;
+font-weight: 600;
+padding: 10px;
+margin-right: 10px;
+position: relative;
+
+}
+
+.covid-btn::after {
+    content: '';
+    background-color: #d80943;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+ul li img {
+    margin-right: 6px;
+}
+
+.lang-wrapper {
+border-radius: 16px;
+border: 1px solid #17206a;
+background-color: #fff;
+padding: 6px 34px 6px 14px;
+cursor: pointer;
+color: #17206a;
+font-size: 12px;
+letter-spacing: .05;
+font-weight: 300;
+position: relative;
+}
+.lang-wrapper::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    right: 2px;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://kun.uz/assets/cd6ab492/img/toggle-circle-v2.svg");
+    width: 24px;
+    height: 24px;
+  
+}

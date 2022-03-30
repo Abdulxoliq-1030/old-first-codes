@@ -1,0 +1,188 @@
+body, h1 {
+    margin: 0;
+}
+.bottom{
+    margin-top: 100px;
+
+}
+
+.container{
+
+    width: 70%;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+.box-1{
+    background-color: #555;
+    /*
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 40px; 
+    */
+    padding: 20px;
+    margin: 30px;
+    border: 1px solid red;
+
+}
+.box-1 h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+.box-1 p{
+    color: white;
+
+}
+.box-2{
+    margin: 30px;
+    border: 3px dashed #555;
+    padding: 20px;
+}
+.box-2 h1, .box-2 p{
+    color: #555;
+
+
+}
+
+.button{
+    background-color: #222;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #222;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(33, 6, 240);
+    color: #fff;
+
+}
+
+.box-3{
+margin: 30px 0;
+border: 1px solid #555;
+padding: 20px;
+}
+.box-3 h1{
+    text-align: center;
+    color: #555;
+    font-family: sans-serif;
+
+}
+.categories{
+    padding: 0;
+
+
+}
+.categories li{
+    list-style-type: none;
+    padding: 5px 0;
+    border-bottom: 1px solid #555;
+
+}
+
+
+.myForm label{
+    display: block;
+    font-size: 20px;
+    color: #555;
+
+}
+.myForm input .myForm textarea{
+    margin: 8px;
+    padding: 5px;
+    width: 100%;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+   border: 1px solid #555;
+   padding: 10px;
+   box-sizing: border-box;
+
+}
+
+.content {
+ float: left;
+ width: 70%;    
+}
+
+.sidebar {
+    float: left;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.relative {
+    position: relative;
+    top: 0;
+    width: 600px;
+    height: 700px;
+    background-image: url(car.jpg);
+    background-size: cover;
+    
+}
+.absolute {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.absolute2 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.fixed {
+  position: fixed;
+  left: 0;
+  top: 40%;  
+}
+.list-items li {
+    color: #555;
+    padding: 5px;
+    list-style-type: none;
+}
+.list-items li:first-child{
+    background-color: #ff000f;
+    color: #fff;
+}
+.list-items li:nth-child(even) {
+    background-color: aqua;
+}
+
+.list-items li:last-child{
+    background-color: #00ff00;
+    color: #fff;
+}
+
+.table1 {
+    width: 100%;
+   border-collapse: collapse;
+}
+
+.table1 th {
+border: 1px solid #555;
+background-color: green;
+color: white;
+padding: 5px;
+}
+.table1 td {
+  text-align: center;
+  border: 1px solid #555;
+  padding: 5px;
+}
+.table1 tr:nth-child(even){
+    background-color: lemonchiffon;
+}
